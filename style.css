@@ -10,6 +10,7 @@ body{
     background-color: #fafafa;
     transform: rotate(0.05deg);
     margin: 0 1px;
+    height: 100vh;
   }
   header{
     margin: 40px 80px;
@@ -107,7 +108,7 @@ body{
     margin-top: 64px;
     margin-bottom: 0;
     font-family: "Abel";
-    color:  #0084ff;
+    color:  #da1313;
   }
   h3{
     font-size: 24px;
@@ -308,4 +309,27 @@ body{
      font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
      color:#fbff00;
      //background-color:black;
+ }
+
+ .stamp-button-wrapper {
+     width: 100%;
+     margin-bottom: 20px;
+     display: flex;
+ }
+
+ .stamp-button {
+     margin: auto;
+     width: 20%;
+     height: 30px;
+     background: yellow;
+     cursor: pointer;
+     outline: none;
+ }
+
+ .stamps {
+     width: 100%;
+ }
+
+ .stamp {
+     border-radius: 70px;
  }
